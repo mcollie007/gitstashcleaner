@@ -3,9 +3,11 @@ clean your git stash
 
 open your .profile file
 add this line:
+```
 alias gcls="ruby  /Users/path/to/file/gitstashhack.rb"
-
+```
 then you can run the script:
+```
 $ gcls
 Listing your git stash.
 =====================================================================
@@ -24,3 +26,4 @@ Cleaning your git stash.
 Dropped stash@{0} (640ffa70d9c7e46a17798452540f14b7016b7eb7)
 =====================================================================
 Done. Have a nice day! <{o_O}>
+```
